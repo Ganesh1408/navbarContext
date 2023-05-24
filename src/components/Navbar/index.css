@@ -1,0 +1,83 @@
+/* Write your CSS here */
+
+.light-navbar-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #dcdcdc;
+}
+.light-theme-logo {
+  height: 40px;
+  width: 40px;
+}
+.Route-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  list-style-type: none;
+}
+.home-item-light {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #1e293b;
+  font-weight: 500;
+  padding-right: 10px;
+}
+.about-item-light {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #1e293b;
+  font-weight: 500;
+}
+.light-theme {
+  width: 40px;
+  height: 40px;
+}
+.dark-navbar-container {
+  background-color: #333333;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+}
+.dark-theme-logo {
+  height: 40px;
+  width: 40px;
+}
+
+.link-item {
+  text-decoration: none;
+}
+.home-item-dark {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  padding-right: 10px;
+}
+.about-item-dark {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.button-theme {
+  background: transparent;
+  height: 40px;
+  width: 40px;
+  border-style: none;
+  outline: none;
+}
+.theme-image {
+  height: 40px;
+  width: 40px;
+}
